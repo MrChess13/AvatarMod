@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Avatar Mod Tab",
+    "icon": {
+      "value": "Blocks.STRIPPED_ACACIA_LOG"
+    },
+    "showSearch": false
+  }
+}

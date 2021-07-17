@@ -1,0 +1,43 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AvatarModTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avatar_mod_tab"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabavatar_mod_tab": "Avatar Mod Tab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "avatar",
+    "modName": "Avatar",
+    "version": "1.0.0",
+    "author": "admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.avatar",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
