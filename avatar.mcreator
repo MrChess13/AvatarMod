@@ -1,6 +1,17 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AvatarWorldMap",
+      "type": "painting",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avatar_world_map",
+      "path": "~/paintings"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -8,7 +19,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "paintings",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "avatar",
