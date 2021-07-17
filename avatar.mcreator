@@ -1,22 +1,10 @@
 {
   "id_map": {},
-  "mod_elements": [
-    {
-      "name": "AvatarModTab",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "avatar_mod_tab"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabavatar_mod_tab": "Avatar Mod Tab"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
