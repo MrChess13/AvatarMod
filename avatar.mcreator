@@ -1050,7 +1050,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "water_tribe_knife",
+      "registry_name": "water_tribe_machete",
       "path": "~/Items/Tools/Weapens"
     },
     {
@@ -1185,8 +1185,8 @@
       "block.avatar.test": "Test",
       "item.avatar.copper_shoval": "Copper Shoval",
       "block.avatar.silver_ore": "Silver Ore",
-      "block.avatar.ice_bricks_slab": "Ice Bricks Slab",
       "item.avatar.silver_armor_boots": "Silver Armor Boots",
+      "block.avatar.ice_bricks_slab": "Ice Bricks Slab",
       "block.avatar.ice_bricks_fence_gate": "Ice Bricks Fence Gate",
       "block.avatar.blue_ice_fence_gate": "Blue Ice Fence Gate",
       "block.avatar.ice_trap_door": "Ice Trap Door",
@@ -1230,6 +1230,7 @@
       "itemGroup.tabavatar_mod_tab": "Avatar The Last Airbender",
       "item.avatar.copper_pickaxe": "Copper Pickaxe",
       "item.avatar.silver_armor_leggings": "Silver Armor Leggings",
+      "item.avatar.water_tribe_machete": "Water Tribe Machete",
       "item.avatar.raw_goose_meat": "Raw Goose Meat",
       "block.avatar.copper_block": "Copper Block",
       "item.avatar.copper_armor_chestplate": "Copper Armor Body",

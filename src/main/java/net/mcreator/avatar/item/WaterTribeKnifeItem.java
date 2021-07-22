@@ -13,7 +13,7 @@ import net.mcreator.avatar.AvatarModElements;
 
 @AvatarModElements.ModElement.Tag
 public class WaterTribeKnifeItem extends AvatarModElements.ModElement {
-	@ObjectHolder("avatar:water_tribe_knife")
+	@ObjectHolder("avatar:water_tribe_machete")
 	public static final Item block = null;
 	public WaterTribeKnifeItem(AvatarModElements instance) {
 		super(instance, 104);
@@ -46,6 +46,6 @@ public class WaterTribeKnifeItem extends AvatarModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(AvatarModTabItemGroup.tab)) {
-		}.setRegistryName("water_tribe_knife"));
+		}.setRegistryName("water_tribe_machete"));
 	}
 }
