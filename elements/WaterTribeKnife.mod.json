@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "sokkaknife",
+    "texture": "macheterotated",
     "customModelName": "Normal",
     "name": "Water Tribe Knife",
     "specialInfo": [],

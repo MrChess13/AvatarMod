@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "avatar:items/sokkaknife"
+    "layer0": "avatar:items/macheterotated"
   }
 }
