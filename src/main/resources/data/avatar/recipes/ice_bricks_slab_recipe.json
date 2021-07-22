@@ -1,0 +1,22 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:ice_bricks"
+    },
+    "1": {
+      "item": "avatar:ice_bricks"
+    },
+    "2": {
+      "item": "avatar:ice_bricks"
+    }
+  },
+  "result": {
+    "item": "avatar:ice_bricks_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:ice_bricks"
+    },
+    "1": {
+      "item": "avatar:snow_stick"
+    },
+    "2": {
+      "item": "avatar:ice_bricks"
+    },
+    "3": {
+      "item": "avatar:ice_bricks"
+    },
+    "4": {
+      "item": "avatar:snow_stick"
+    },
+    "5": {
+      "item": "avatar:ice_bricks"
+    }
+  },
+  "result": {
+    "item": "avatar:ice_bricks_fence",
+    "count": 3
+  }
+}

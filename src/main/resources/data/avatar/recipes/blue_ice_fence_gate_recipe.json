@@ -1,0 +1,32 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:snow_stick"
+    },
+    "1": {
+      "item": "minecraft:blue_ice"
+    },
+    "2": {
+      "item": "avatar:snow_stick"
+    },
+    "3": {
+      "item": "avatar:snow_stick"
+    },
+    "4": {
+      "item": "minecraft:blue_ice"
+    },
+    "5": {
+      "item": "avatar:snow_stick"
+    }
+  },
+  "result": {
+    "item": "avatar:blue_ice_fence_gate",
+    "count": 1
+  }
+}

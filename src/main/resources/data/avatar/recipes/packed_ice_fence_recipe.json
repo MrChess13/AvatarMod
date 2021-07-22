@@ -1,0 +1,32 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:packed_ice"
+    },
+    "1": {
+      "item": "avatar:snow_stick"
+    },
+    "2": {
+      "item": "minecraft:packed_ice"
+    },
+    "3": {
+      "item": "minecraft:packed_ice"
+    },
+    "4": {
+      "item": "avatar:snow_stick"
+    },
+    "5": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "avatar:packed_ice_fence",
+    "count": 3
+  }
+}

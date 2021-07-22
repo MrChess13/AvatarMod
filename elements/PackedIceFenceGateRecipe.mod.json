@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SnowStick"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "CUSTOM:SnowStick"
+      },
+      {
+        "value": "CUSTOM:SnowStick"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "CUSTOM:SnowStick"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PackedIceFenceGate"
+    },
+    "name": "packed_ice_fence_gate_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1042,6 +1042,136 @@
       "ids": {},
       "registry_name": "copper_coin_recipe",
       "path": "~/Crafting Recipes/Crafting Table/Blocks/Coins "
+    },
+    {
+      "name": "WaterTribeKnife",
+      "type": "tool",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_tribe_knife",
+      "path": "~/Items/Tools/Weapens"
+    },
+    {
+      "name": "Boomarng",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomarng",
+      "path": "~/Items/Tools/Weapens"
+    },
+    {
+      "name": "IceFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_fence_gate_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_fence_gate_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_fence_gate_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_fence_gate_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceFenceRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_fence_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceFenceRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_fence_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceFenceRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_fence_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksFenceRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_fence_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksSlabRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_slab_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksStarisRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_staris_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksWallRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_wall_recipe",
+      "path": "~/Building Blocks/Water Tribe"
     }
   ],
   "variable_elements": [],
@@ -1085,12 +1215,14 @@
       "block.avatar.blue_ice_wall": "Blue Ice Wall",
       "item.avatar.copper_hoe": "Copper Hoe",
       "item.avatar.gold_coin": "Gold Coin",
+      "item.avatar.water_tribe_knife": "Water Tribe Knife",
       "block.avatar.packed_ice_fence": "Packed Ice Fence",
       "block.avatar.ice_bricks_staris": "Ice Bricks Staris",
       "item.avatar.silver_ingot": "Silver Ingot",
       "item.avatar.copper_sword": "Copper Sword",
       "item.avatar.copper_nuget": "Copper Nuget",
       "block.avatar.blue_ice_fence": "Blue Ice Fence",
+      "item.avatar.boomarng": "Boomarng",
       "item.avatar.silver_shoval": "Silver Shoval",
       "item.avatar.snow_stick": "Silver Stick",
       "item.avatar.copper_armor_helmet": "Copper Armor Helmet",
