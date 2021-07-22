@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "avatar:items/33fe8c103b5560d90bc2e634992c3dbf"
+  }
+}

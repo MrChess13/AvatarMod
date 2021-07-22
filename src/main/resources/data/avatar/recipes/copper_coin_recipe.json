@@ -1,0 +1,39 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:copper_nuget"
+    },
+    "1": {
+      "item": "avatar:copper_nuget"
+    },
+    "2": {
+      "item": "avatar:copper_nuget"
+    },
+    "3": {
+      "item": "avatar:copper_nuget"
+    },
+    "5": {
+      "item": "avatar:copper_nuget"
+    },
+    "6": {
+      "item": "avatar:copper_nuget"
+    },
+    "7": {
+      "item": "avatar:copper_nuget"
+    },
+    "8": {
+      "item": "avatar:copper_nuget"
+    }
+  },
+  "result": {
+    "item": "avatar:copper_coin",
+    "count": 1
+  }
+}

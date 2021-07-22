@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avatar:blocks/ice_sandstone",
+    "up": "avatar:blocks/ice_sandstone",
+    "north": "avatar:blocks/ice_sandstone",
+    "east": "avatar:blocks/ice_sandstone",
+    "south": "avatar:blocks/ice_sandstone",
+    "west": "avatar:blocks/ice_sandstone",
+    "particle": "avatar:blocks/ice_sandstone"
+  }
+}

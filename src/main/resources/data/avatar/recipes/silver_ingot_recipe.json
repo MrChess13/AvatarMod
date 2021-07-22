@@ -1,0 +1,42 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:silver_nuget"
+    },
+    "1": {
+      "item": "avatar:silver_nuget"
+    },
+    "2": {
+      "item": "avatar:silver_nuget"
+    },
+    "3": {
+      "item": "avatar:silver_nuget"
+    },
+    "4": {
+      "item": "avatar:silver_nuget"
+    },
+    "5": {
+      "item": "avatar:silver_nuget"
+    },
+    "6": {
+      "item": "avatar:silver_nuget"
+    },
+    "7": {
+      "item": "avatar:silver_nuget"
+    },
+    "8": {
+      "item": "avatar:silver_nuget"
+    }
+  },
+  "result": {
+    "item": "avatar:silver_ingot",
+    "count": 1
+  }
+}

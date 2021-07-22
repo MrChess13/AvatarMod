@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "avatar:block/snow_slab"
+    },
+    "type=top": {
+      "model": "avatar:block/snow_slab_top"
+    },
+    "type=double": {
+      "model": "avatar:block/snow_slab_full"
+    }
+  }
+}

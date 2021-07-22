@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avatar:blocks/copperblock",
+    "up": "avatar:blocks/copperblock",
+    "north": "avatar:blocks/copperblock",
+    "east": "avatar:blocks/copperblock",
+    "south": "avatar:blocks/copperblock",
+    "west": "avatar:blocks/copperblock",
+    "particle": "avatar:blocks/copperblock"
+  }
+}

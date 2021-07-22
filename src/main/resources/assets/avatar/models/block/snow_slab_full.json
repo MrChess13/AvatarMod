@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "avatar:blocks/snow",
+    "top": "avatar:blocks/snow",
+    "side": "avatar:blocks/snow"
+  }
+}

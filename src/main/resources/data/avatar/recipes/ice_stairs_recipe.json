@@ -1,0 +1,33 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ice"
+    },
+    "3": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "minecraft:ice"
+    },
+    "6": {
+      "item": "minecraft:ice"
+    },
+    "7": {
+      "item": "minecraft:ice"
+    },
+    "8": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "avatar:ice_staris",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "avatar",
+  "type": "minecraft:smelting",
+  "experience": 50,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "avatar:raw_goose_meat"
+  },
+  "result": {
+    "item": "avatar:goose_meat"
+  }
+}

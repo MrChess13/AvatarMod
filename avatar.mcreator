@@ -10,12 +10,1106 @@
       "ids": {},
       "registry_name": "avatar_world_map",
       "path": "~/paintings"
+    },
+    {
+      "name": "SnowSlab",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_slab",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "SnowStaris",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_staris",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceSlab",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_slab",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceStaris",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_staris",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceFence",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_fence",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceStairsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_stairs_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceSlabResipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_slab_resipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceFenceGate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_fence_gate",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceWall",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_wall",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceTrapDoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_trap_door",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceTrapDoorRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_trap_door_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "AvatarModTab",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "avatar_mod_tab",
+      "path": "~/Misc/Creative Tabs"
+    },
+    {
+      "name": "IceBricks",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "Anng",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anng",
+      "path": "~/Misc/Random Staff"
+    },
+    {
+      "name": "PackedIceSlab",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_slab",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceStaris",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_staris",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceFence",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_fence",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceFenceGate",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_fence_gate",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceWall",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_wall",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceSlabResipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_slab_resipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceSlab",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_slab",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceStaris",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_staris",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceFence",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_fence",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceFenceGate",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_fence_gate",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceWall",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_wall",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceSlabRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_slab_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceStarisRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_staris_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceSlabRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_slab_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceStarisRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_staris_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceWallRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_wall_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PackedIceWallRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "packed_ice_wall_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "BlueIceWallRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ice_wall_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricks2",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_2",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricks3",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_3",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "SnowSlabRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_slab_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "SnowStarisRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_staris_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_recipe",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksSlab",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_slab",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksStaris",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_staris",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksFence",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_fence",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksFenceGate",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_fence_gate",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "IceBricksWall",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_bricks_wall",
+      "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "RawGooseMeat",
+      "type": "food",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_goose_meat",
+      "path": "~/Food/Eat"
+    },
+    {
+      "name": "GooseMeat",
+      "type": "food",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goose_meat",
+      "path": "~/Food/Eat"
+    },
+    {
+      "name": "CookedGoose",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_goose",
+      "path": "~/Crafting Recipes/Furnace"
+    },
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block",
+      "path": "~/Building Blocks/Material"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore",
+      "path": "~/Building Blocks/Material"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_block",
+      "path": "~/Building Blocks/Material"
+    },
+    {
+      "name": "CopperBlockk",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_blockk",
+      "path": "~/Building Blocks/Material"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Dress/Armor/Matrials"
+    },
+    {
+      "name": "SilverArmor",
+      "type": "armor",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Dress/Armor/Matrials"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "CopperNuget",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_nuget",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "SilverNuget",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_nuget",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "SilverPickaxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_pickaxe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "SilverShoval",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_shoval",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "CopperShoval",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_shoval",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "SilverAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_axe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_axe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "SilverHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_hoe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_hoe",
+      "path": "~/Items/Tools/NormalTools"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_sword",
+      "path": "~/Items/Tools/Weapens"
+    },
+    {
+      "name": "SilverHelemntRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_helemnt_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "SilverChestRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_chest_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "SilverPantsRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_pants_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "SilverLegginsRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_leggins_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "CopperHelmentRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_helment_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "CopperChestRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_chest_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "CopperPantsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pants_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "CopperLegginsRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_leggins_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Dress/Armor/Matrials"
+    },
+    {
+      "name": "SilverPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_pickaxe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "SilverAxeRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_axe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "SilverShovalRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_shoval_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "SilverSwordRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_sword_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "SilverHoeRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_hoe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_axe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "CopperShovalRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_shoval_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_hoe_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword",
+      "path": "~/Items/Tools/Weapens"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "CopperIngotRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "SilverNugetRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_nuget_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "CopperNugetRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_nuget_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "CopperBlockRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Blocks/Matirilas"
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_block_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Blocks/Matirilas"
+    },
+    {
+      "name": "SilverIngotRecipe2",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot_recipe_2",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "CopperIngotRecipe2",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot_recipe_2",
+      "path": "~/Crafting Recipes/Crafting Table/Matirials"
+    },
+    {
+      "name": "SnowStick",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_stick",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "SilverStickRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_stick_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Items"
+    },
+    {
+      "name": "CopperRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_recipe",
+      "path": "~/Crafting Recipes/Furnace"
+    },
+    {
+      "name": "SilverRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_recipe",
+      "path": "~/Crafting Recipes/Furnace"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_coin",
+      "path": "~/Items/Coins"
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_coin",
+      "path": "~/Items/Coins"
+    },
+    {
+      "name": "CopperCoin",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_coin",
+      "path": "~/Items/Coins"
+    },
+    {
+      "name": "GoldCoinRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_coin_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Blocks/Coins "
+    },
+    {
+      "name": "SilverCoinRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_coin_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Blocks/Coins "
+    },
+    {
+      "name": "CopperCoinRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_coin_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Blocks/Coins "
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.avatar.ice_bricks_3": "Ice Bricks 3",
+      "block.avatar.ice_bricks_2": "Ice Bricks 2",
+      "block.avatar.ice_fence_gate": "Ice Fence Gate",
+      "item.avatar.silver_coin": "Silver Coin",
+      "block.avatar.test": "Test",
+      "item.avatar.copper_shoval": "Copper Shoval",
+      "block.avatar.silver_ore": "Silver Ore",
+      "item.avatar.silver_armor_boots": "Silver Armor Boots",
+      "block.avatar.ice_bricks_slab": "Ice Bricks Slab",
+      "block.avatar.ice_bricks_fence_gate": "Ice Bricks Fence Gate",
+      "block.avatar.blue_ice_fence_gate": "Blue Ice Fence Gate",
+      "block.avatar.ice_trap_door": "Ice Trap Door",
+      "item.avatar.copper_armor_leggings": "Copper Armor Leggings",
+      "item.avatar.silver_sword": "Silver Sword",
+      "item.avatar.copper_armor_boots": "Copper Armor Boots",
+      "item.avatar.copper_ingot": "Copper Ingot",
+      "item.avatar.silver_armor_helmet": "Silver Armor Helmet",
+      "item.avatar.silver_axe": "Silver Axe",
+      "item.avatar.goose_meat": "Goose Meat",
+      "block.avatar.snow_slab": "Snow Slab",
+      "block.avatar.packed_ice_staris": "Packed Ice Staris",
+      "block.avatar.silver_block": "Silver Block",
+      "block.avatar.packed_ice_wall": "Packed Ice Wall",
+      "item.avatar.anng": "Anng",
+      "block.avatar.ice_slab": "Ice Slab",
+      "block.avatar.ice_bricks_fence": "Ice Bricks Fence",
+      "block.avatar.packed_ice_slab": "Packed Ice Slab",
+      "block.avatar.blue_ice_staris": "Blue Ice Staris",
+      "block.avatar.ice_staris": "Ice Staris",
+      "item.avatar.silver_pickaxe": "Silver Pickaxe",
+      "block.avatar.ice_wall": "Ice Wall",
+      "item.avatar.silver_nuget": "Silver Nuget",
+      "block.avatar.ice_fence": "Ice Fence",
+      "item.avatar.silver_armor_chestplate": "Silver Armor Body",
+      "block.avatar.blue_ice_wall": "Blue Ice Wall",
+      "item.avatar.copper_hoe": "Copper Hoe",
+      "item.avatar.gold_coin": "Gold Coin",
+      "block.avatar.packed_ice_fence": "Packed Ice Fence",
+      "block.avatar.ice_bricks_staris": "Ice Bricks Staris",
+      "item.avatar.silver_ingot": "Silver Ingot",
+      "item.avatar.copper_sword": "Copper Sword",
+      "item.avatar.copper_nuget": "Copper Nuget",
+      "block.avatar.blue_ice_fence": "Blue Ice Fence",
+      "item.avatar.silver_shoval": "Silver Shoval",
+      "item.avatar.snow_stick": "Silver Stick",
+      "item.avatar.copper_armor_helmet": "Copper Armor Helmet",
+      "block.avatar.copper_blockk": "Copper Blockk",
+      "itemGroup.tabavatar_mod_tab": "Avatar The Last Airbender",
+      "item.avatar.copper_pickaxe": "Copper Pickaxe",
+      "item.avatar.silver_armor_leggings": "Silver Armor Leggings",
+      "item.avatar.raw_goose_meat": "Raw Goose Meat",
+      "block.avatar.copper_block": "Copper Block",
+      "item.avatar.copper_armor_chestplate": "Copper Armor Body",
+      "item.avatar.silver_hoe": "Silver Hoe",
+      "item.avatar.copper_axe": "Copper Axe",
+      "block.avatar.blue_ice_slab": "Blue Ice Slab",
+      "block.avatar.packed_ice_fence_gate": "Packed Ice Fence Gate",
+      "block.avatar.ice_bricks_wall": "Ice Bricks Wall",
+      "block.avatar.ice_bricks": "Ice Bricks",
+      "item.avatar.copper_coin": "Copper Coin",
+      "block.avatar.snow_staris": "Snow Staris"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -23,6 +1117,138 @@
       {
         "name": "paintings",
         "children": []
+      },
+      {
+        "name": "Building Blocks",
+        "children": [
+          {
+            "name": "Water Tribe",
+            "children": []
+          },
+          {
+            "name": "Material",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "Creative Tabs",
+            "children": []
+          },
+          {
+            "name": "Random Staff",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Food",
+        "children": [
+          {
+            "name": "Eat",
+            "children": []
+          },
+          {
+            "name": "Drink",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crafting Recipes",
+        "children": [
+          {
+            "name": "Furnace",
+            "children": []
+          },
+          {
+            "name": "Crafting Table",
+            "children": [
+              {
+                "name": "Dress",
+                "children": [
+                  {
+                    "name": "Armor",
+                    "children": [
+                      {
+                        "name": "Matrials",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tools",
+                "children": []
+              },
+              {
+                "name": "Matirials",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": [
+                  {
+                    "name": "Matirilas",
+                    "children": []
+                  },
+                  {
+                    "name": "Coins ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Items",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dress",
+        "children": [
+          {
+            "name": "Armor",
+            "children": [
+              {
+                "name": "Matrials",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Matrials",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": [
+              {
+                "name": "Weapens",
+                "children": []
+              },
+              {
+                "name": "NormalTools",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Coins",
+            "children": []
+          }
+        ]
       }
     ]
   },

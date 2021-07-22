@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "avatar:blocks/silverblock",
+    "up": "avatar:blocks/silverblock",
+    "north": "avatar:blocks/silverblock",
+    "east": "avatar:blocks/silverblock",
+    "south": "avatar:blocks/silverblock",
+    "west": "avatar:blocks/silverblock",
+    "particle": "avatar:blocks/silverblock"
+  }
+}

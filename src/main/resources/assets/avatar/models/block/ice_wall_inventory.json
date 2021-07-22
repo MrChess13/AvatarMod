@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "avatar:blocks/ice",
+    "particle": "avatar:blocks/ice"
+  }
+}

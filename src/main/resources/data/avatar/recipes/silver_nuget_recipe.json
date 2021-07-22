@@ -1,0 +1,13 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "avatar:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "avatar:silver_nuget",
+    "count": 9
+  }
+}

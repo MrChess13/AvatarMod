@@ -1,0 +1,29 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:copper_ingot"
+    },
+    "1": {
+      "item": "avatar:copper_ingot"
+    },
+    "2": {
+      "item": "avatar:copper_ingot"
+    },
+    "3": {
+      "item": "avatar:copper_ingot"
+    },
+    "5": {
+      "item": "avatar:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "avatar:copper_armor_helmet",
+    "count": 1
+  }
+}

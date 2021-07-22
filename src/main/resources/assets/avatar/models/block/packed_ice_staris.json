@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "avatar:blocks/packed_ice",
+    "top": "avatar:blocks/packed_ice",
+    "side": "avatar:blocks/packed_ice"
+  }
+}
