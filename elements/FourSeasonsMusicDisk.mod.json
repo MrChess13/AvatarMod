@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disk",
+    "name": "Four Seasons Music Disk",
+    "description": "Iroh favorite Song",
+    "creativeTab": {
+      "value": "CUSTOM:AvatarModTab"
+    },
+    "music": {
+      "value": "CUSTOM:fourseasons"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

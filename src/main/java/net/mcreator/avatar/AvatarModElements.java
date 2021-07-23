@@ -45,6 +45,7 @@ public class AvatarModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AvatarModElements() {
+		sounds.put(new ResourceLocation("avatar", "fourseasons"), new net.minecraft.util.SoundEvent(new ResourceLocation("avatar", "fourseasons")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("avatar").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

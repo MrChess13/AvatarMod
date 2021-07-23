@@ -12,11 +12,11 @@ import net.mcreator.avatar.itemgroup.AvatarModTabItemGroup;
 import net.mcreator.avatar.AvatarModElements;
 
 @AvatarModElements.ModElement.Tag
-public class Test3Item extends AvatarModElements.ModElement {
-	@ObjectHolder("avatar:test_3")
+public class FlakesItem extends AvatarModElements.ModElement {
+	@ObjectHolder("avatar:flakes")
 	public static final Item block = null;
-	public Test3Item(AvatarModElements instance) {
-		super(instance, 122);
+	public FlakesItem(AvatarModElements instance) {
+		super(instance, 128);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class Test3Item extends AvatarModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AvatarModTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("test_3");
+			setRegistryName("flakes");
 		}
 
 		@Override

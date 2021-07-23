@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "kiosymenifa",
+    "texture": "fireflakes1",
     "customModelName": "Normal",
-    "name": "Test 3",
+    "name": "Flakes",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AvatarModTab"

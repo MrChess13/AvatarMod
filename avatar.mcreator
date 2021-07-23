@@ -1214,16 +1214,6 @@
       "path": "~/Building Blocks/Water Tribe"
     },
     {
-      "name": "Test3",
-      "type": "item",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test_3",
-      "path": "~/Items/Matrials"
-    },
-    {
       "name": "Cabbge",
       "type": "food",
       "sortid": 123,
@@ -1242,20 +1232,117 @@
       "ids": {},
       "registry_name": "chery_tea_cup",
       "path": "~/Food/Drink"
+    },
+    {
+      "name": "FireFlakesFoodEaten",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_flakes_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireFlakes",
+      "type": "food",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_flakes",
+      "path": "~/Food/Eat"
+    },
+    {
+      "name": "FruitCake",
+      "type": "food",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fruit_cake",
+      "path": "~/Food/Eat"
+    },
+    {
+      "name": "FruitCakeRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fruit_cake_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Food"
+    },
+    {
+      "name": "Flakes",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flakes",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "FireFlakesRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_flakes_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Food"
+    },
+    {
+      "name": "Suck",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suck",
+      "path": "~/Items/Matrials"
+    },
+    {
+      "name": "FourSeasonsMusicDisk",
+      "type": "musicdisc",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_seasons_music_disk",
+      "path": "~/Misc/Music"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "fourseasons",
+      "files": [
+        "four_seasons__avatar_the_last_airbender_ost"
+      ],
+      "category": "music",
+      "subtitle": "Four Seasons"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.avatar.ice_bricks_3": "Ice Bricks 3",
-      "item.avatar.test_3": "Test 3",
       "block.avatar.ice_bricks_2": "Ice Bricks 2",
+      "subtitles.fourseasons": "Four Seasons",
       "block.avatar.ice_fence_gate": "Ice Fence Gate",
       "item.avatar.silver_coin": "Silver Coin",
       "block.avatar.test": "Test",
       "item.avatar.copper_shoval": "Copper Shoval",
       "block.avatar.silver_ore": "Silver Ore",
+      "item.avatar.four_seasons_music_disk": "Four Seasons Music Disk",
       "block.avatar.ice_bricks_slab": "Ice Bricks Slab",
       "item.avatar.silver_armor_boots": "Silver Armor Boots",
       "item.avatar.cabbge": "Cabbge",
@@ -1266,6 +1353,7 @@
       "item.avatar.copper_armor_leggings": "Copper Armor Leggings",
       "item.avatar.silver_sword": "Silver Sword",
       "item.avatar.copper_armor_boots": "Copper Armor Boots",
+      "item.avatar.suck": "Suck",
       "item.avatar.copper_ingot": "Copper Ingot",
       "item.avatar.silver_armor_helmet": "Silver Armor Helmet",
       "block.avatar.ice_bricks_3_wall": "Ice Bricks 3 Wall",
@@ -1298,10 +1386,14 @@
       "block.avatar.ice_bricks_staris": "Ice Bricks Staris",
       "item.avatar.silver_ingot": "Silver Ingot",
       "item.avatar.copper_sword": "Copper Sword",
+      "item.avatar.fruit_cake": "Fruit Cake",
       "item.avatar.copper_nuget": "Copper Nuget",
       "block.avatar.blue_ice_fence": "Blue Ice Fence",
+      "item.avatar.four_seasons_music_disk.desc": "Iroh favorite Song",
       "item.avatar.silver_shoval": "Silver Shoval",
       "item.avatar.snow_stick": "Silver Stick",
+      "item.avatar.flakes": "Flakes",
+      "item.avatar.fire_flakes": "Fire Flakes",
       "item.avatar.copper_armor_helmet": "Copper Armor Helmet",
       "block.avatar.copper_blockk": "Copper Blockk",
       "itemGroup.tabavatar_mod_tab": "Avatar The Last Airbender",
@@ -1350,6 +1442,10 @@
           },
           {
             "name": "Random Staff",
+            "children": []
+          },
+          {
+            "name": "Music",
             "children": []
           }
         ]
@@ -1414,6 +1510,10 @@
               },
               {
                 "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Food",
                 "children": []
               }
             ]

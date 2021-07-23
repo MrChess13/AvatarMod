@@ -3,27 +3,21 @@ package net.mcreator.avatar.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.avatar.itemgroup.AvatarModTabItemGroup;
 import net.mcreator.avatar.AvatarModElements;
 
-import java.util.List;
-
 @AvatarModElements.ModElement.Tag
-public class RawGooseMeatItem extends AvatarModElements.ModElement {
-	@ObjectHolder("avatar:raw_goose_meat")
+public class FruitCakeItem extends AvatarModElements.ModElement {
+	@ObjectHolder("avatar:fruit_cake")
 	public static final Item block = null;
-	public RawGooseMeatItem(AvatarModElements instance) {
-		super(instance, 45);
+	public FruitCakeItem(AvatarModElements instance) {
+		super(instance, 126);
 	}
 
 	@Override
@@ -33,19 +27,13 @@ public class RawGooseMeatItem extends AvatarModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(AvatarModTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(6).saturation(0.6f).meat().build()));
-			setRegistryName("raw_goose_meat");
+					.food((new Food.Builder()).hunger(16).saturation(0.7999999999999999f).build()));
+			setRegistryName("fruit_cake");
 		}
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.EAT;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("The Favorite Food of Iroh"));
 		}
 	}
 }

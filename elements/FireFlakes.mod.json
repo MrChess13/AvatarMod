@@ -3,26 +3,27 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "rawmeat4",
+    "texture": "fireflakes",
     "customModelName": "Normal",
-    "name": "Raw Goose Meat",
-    "rarity": "COMMON",
-    "specialInfo": [
-      "The Favorite Food of Iroh"
-    ],
+    "name": "Fire Flakes",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AvatarModTab"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
-    "saturation": 0.6,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
-    "forDogs": true,
+    "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "FireFlakesFoodEaten"
+    }
   }
 }
