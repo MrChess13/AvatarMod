@@ -1319,6 +1319,112 @@
       "ids": {},
       "registry_name": "four_seasons_music_disk",
       "path": "~/Misc/Music"
+    },
+    {
+      "name": "BoomerangRangedItem",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomerang_bullet_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Scripts"
+    },
+    {
+      "name": "Boomerang",
+      "type": "gun",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomerang",
+      "path": "~/Items/Tools/Weapens"
+    },
+    {
+      "name": "BoomerangBulletItem",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomerang_bullet_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Scripts"
+    },
+    {
+      "name": "SuckRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suck_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Items"
+    },
+    {
+      "name": "BookOfTheFuture",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_of_the_future",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "FutereBookRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "futere_book_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Items"
+    },
+    {
+      "name": "BoomerangRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomerang_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
+    },
+    {
+      "name": "ObsidianSlab",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_slab",
+      "path": "~/Building Blocks/FIre Nation"
+    },
+    {
+      "name": "ObsidianStaris",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_staris",
+      "path": "~/Building Blocks/FIre Nation"
     }
   ],
   "variable_elements": [],
@@ -1335,10 +1441,10 @@
   "language_map": {
     "en_us": {
       "block.avatar.ice_bricks_3": "Ice Bricks 3",
-      "block.avatar.ice_bricks_2": "Ice Bricks 2",
       "subtitles.fourseasons": "Four Seasons",
-      "block.avatar.ice_fence_gate": "Ice Fence Gate",
+      "block.avatar.ice_bricks_2": "Ice Bricks 2",
       "item.avatar.silver_coin": "Silver Coin",
+      "block.avatar.ice_fence_gate": "Ice Fence Gate",
       "block.avatar.test": "Test",
       "item.avatar.copper_shoval": "Copper Shoval",
       "block.avatar.silver_ore": "Silver Ore",
@@ -1355,6 +1461,7 @@
       "item.avatar.copper_armor_boots": "Copper Armor Boots",
       "item.avatar.suck": "Suck",
       "item.avatar.copper_ingot": "Copper Ingot",
+      "item.avatar.book_of_the_future": "Book Of The Future",
       "item.avatar.silver_armor_helmet": "Silver Armor Helmet",
       "block.avatar.ice_bricks_3_wall": "Ice Bricks 3 Wall",
       "item.avatar.silver_axe": "Silver Axe",
@@ -1364,6 +1471,7 @@
       "block.avatar.silver_block": "Silver Block",
       "block.avatar.packed_ice_wall": "Packed Ice Wall",
       "item.avatar.anng": "Anng",
+      "item.avatar.boomerang": "Boomerang",
       "block.avatar.ice_slab": "Ice Slab",
       "block.avatar.ice_bricks_fence": "Ice Bricks Fence",
       "block.avatar.ice_bricks_3_staris": "Ice Bricks 3 Staris",
@@ -1397,8 +1505,10 @@
       "item.avatar.copper_armor_helmet": "Copper Armor Helmet",
       "block.avatar.copper_blockk": "Copper Blockk",
       "itemGroup.tabavatar_mod_tab": "Avatar The Last Airbender",
+      "block.avatar.obsidian_staris": "Obsidian Staris",
       "item.avatar.copper_pickaxe": "Copper Pickaxe",
       "item.avatar.silver_armor_leggings": "Silver Armor Leggings",
+      "block.avatar.obsidian_slab": "Obsidian Slab",
       "item.avatar.water_tribe_machete": "Water Tribe Machete",
       "item.avatar.raw_goose_meat": "Raw Goose Meat",
       "block.avatar.copper_block": "Copper Block",
@@ -1429,6 +1539,10 @@
           },
           {
             "name": "Material",
+            "children": []
+          },
+          {
+            "name": "FIre Nation",
             "children": []
           }
         ]
@@ -1551,11 +1665,19 @@
               {
                 "name": "NormalTools",
                 "children": []
+              },
+              {
+                "name": "Scripts",
+                "children": []
               }
             ]
           },
           {
             "name": "Coins",
+            "children": []
+          },
+          {
+            "name": "Misc",
             "children": []
           }
         ]

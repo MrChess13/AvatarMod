@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "avatar:blocks/obsidian",
+    "top": "avatar:blocks/obsidian",
+    "side": "avatar:blocks/obsidian"
+  }
+}
