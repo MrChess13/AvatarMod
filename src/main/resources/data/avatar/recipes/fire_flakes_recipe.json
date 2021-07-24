@@ -1,0 +1,20 @@
+{
+  "group": "avatar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "avatar:deleted_mod_element"
+    },
+    "1": {
+      "item": "avatar:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "avatar:fire_flakes",
+    "count": 1
+  }
+}

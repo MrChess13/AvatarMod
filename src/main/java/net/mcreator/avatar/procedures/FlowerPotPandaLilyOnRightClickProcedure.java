@@ -1,25 +1,11 @@
 package net.mcreator.avatar.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Hand;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.avatar.block.PandaLilyBlock;
-import net.mcreator.avatar.AvatarModElements;
-import net.mcreator.avatar.AvatarMod;
-
-import java.util.Map;
-
 @AvatarModElements.ModElement.Tag
 public class FlowerPotPandaLilyOnRightClickProcedure extends AvatarModElements.ModElement {
+
 	public FlowerPotPandaLilyOnRightClickProcedure(AvatarModElements instance) {
 		super(instance, 120);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -48,17 +34,21 @@ public class FlowerPotPandaLilyOnRightClickProcedure extends AvatarModElements.M
 				AvatarMod.LOGGER.warn("Failed to load dependency world for procedure FlowerPotPandaLilyOnRightClick!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Blocks.AIR, (int) (1)).getItem())) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = Blocks.FLOWER_POT.getDefaultState();
+
 				world.setBlockState(_bp, _bs, 3);
+
 			}
 			if (entity instanceof LivingEntity) {
 				ItemStack _setstack = new ItemStack(PandaLilyBlock.block, (int) (1));
@@ -68,5 +58,7 @@ public class FlowerPotPandaLilyOnRightClickProcedure extends AvatarModElements.M
 					((ServerPlayerEntity) entity).inventory.markDirty();
 			}
 		}
+
 	}
+
 }

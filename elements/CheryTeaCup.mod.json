@@ -3,26 +3,24 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "rawmeat4",
+    "texture": "cheriestea",
     "customModelName": "Normal",
-    "name": "Raw Goose Meat",
+    "name": "Chery Tea Cup",
     "rarity": "COMMON",
-    "specialInfo": [
-      "The Favorite Food of Iroh"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AvatarModTab"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
-    "saturation": 0.6,
+    "nutritionalValue": 0,
+    "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": ""
+      "value": "CUSTOM:Anng"
     },
-    "forDogs": true,
+    "forDogs": false,
     "isAlwaysEdible": false,
-    "animation": "eat",
+    "animation": "drink",
     "hasGlow": false
   }
 }

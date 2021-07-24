@@ -1,1 +1,12 @@
-{}
+{
+  "fourseasons": {
+    "category": "music",
+    "subtitle": "subtitles.fourseasons",
+    "sounds": [
+      {
+        "name": "avatar:four_seasons__avatar_the_last_airbender_ost",
+        "stream": true
+      }
+    ]
+  }
+}

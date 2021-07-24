@@ -1,18 +1,11 @@
 package net.mcreator.avatar.procedures;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.block.Blocks;
-
-import net.mcreator.avatar.AvatarModElements;
-import net.mcreator.avatar.AvatarMod;
-
-import java.util.Map;
-
 @AvatarModElements.ModElement.Tag
 public class PanadaLilyGrowingConditionProcedure extends AvatarModElements.ModElement {
+
 	public PanadaLilyGrowingConditionProcedure(AvatarModElements instance) {
 		super(instance, 118);
+
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
@@ -36,10 +29,12 @@ public class PanadaLilyGrowingConditionProcedure extends AvatarModElements.ModEl
 				AvatarMod.LOGGER.warn("Failed to load dependency world for procedure PanadaLilyGrowingCondition!");
 			return false;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
@@ -63,5 +58,7 @@ public class PanadaLilyGrowingConditionProcedure extends AvatarModElements.ModEl
 			sx = (double) ((sx) + 1);
 		}
 		return (false);
+
 	}
+
 }

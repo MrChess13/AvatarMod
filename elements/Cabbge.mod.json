@@ -3,24 +3,22 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "rawmeat4",
+    "texture": "cabbage2",
     "customModelName": "Normal",
-    "name": "Raw Goose Meat",
+    "name": "Cabbge",
     "rarity": "COMMON",
-    "specialInfo": [
-      "The Favorite Food of Iroh"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AvatarModTab"
     },
     "stackSize": 64,
-    "nutritionalValue": 6,
-    "saturation": 0.6,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatingSpeed": 32,
     "resultItem": {
       "value": ""
     },
-    "forDogs": true,
+    "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false

@@ -45,7 +45,7 @@ public class RawGooseMeatItem extends AvatarModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("The Faivorite Food of Hiro"));
+			list.add(new StringTextComponent("The Favorite Food of Iroh"));
 		}
 	}
 }
