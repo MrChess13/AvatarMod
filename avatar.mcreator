@@ -1321,6 +1321,16 @@
       "path": "~/Misc/Music"
     },
     {
+      "name": "BookOfTheFuture",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_of_the_future",
+      "path": "~/Items/Misc"
+    },
+    {
       "name": "BoomerangRangedItem",
       "type": "procedure",
       "sortid": 132,
@@ -1337,6 +1347,36 @@
         ]
       },
       "path": "~/Items/Tools/Scripts"
+    },
+    {
+      "name": "SuckRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suck_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Items"
+    },
+    {
+      "name": "ObsidianSlab",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_slab",
+      "path": "~/Building Blocks/FIre Nation"
+    },
+    {
+      "name": "BoomerangRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boomerang_recipe",
+      "path": "~/Crafting Recipes/Crafting Table/Tools"
     },
     {
       "name": "Boomerang",
@@ -1367,26 +1407,6 @@
       "path": "~/Items/Tools/Scripts"
     },
     {
-      "name": "SuckRecipe",
-      "type": "recipe",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "suck_recipe",
-      "path": "~/Crafting Recipes/Crafting Table/Items"
-    },
-    {
-      "name": "BookOfTheFuture",
-      "type": "item",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "book_of_the_future",
-      "path": "~/Items/Misc"
-    },
-    {
       "name": "FutereBookRecipe",
       "type": "recipe",
       "sortid": 137,
@@ -1397,26 +1417,6 @@
       "path": "~/Crafting Recipes/Crafting Table/Items"
     },
     {
-      "name": "BoomerangRecipe",
-      "type": "recipe",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "boomerang_recipe",
-      "path": "~/Crafting Recipes/Crafting Table/Tools"
-    },
-    {
-      "name": "ObsidianSlab",
-      "type": "block",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "obsidian_slab",
-      "path": "~/Building Blocks/FIre Nation"
-    },
-    {
       "name": "ObsidianStaris",
       "type": "block",
       "sortid": 140,
@@ -1425,6 +1425,125 @@
       "ids": {},
       "registry_name": "obsidian_staris",
       "path": "~/Building Blocks/FIre Nation"
+    },
+    {
+      "name": "PottedPandaLily",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potted_panda_lily",
+      "path": "~/plants/pottedPlants"
+    },
+    {
+      "name": "FlowerPotPandaLilyOnRightClick",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_panda_lily_on_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/pottedPlants"
+    },
+    {
+      "name": "PandaLily",
+      "type": "plant",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panda_lily",
+      "path": "~/plants"
+    },
+    {
+      "name": "PlayerRightClicksFlowerPot",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_right_clicks_flower_pot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/pottedPlants"
+    },
+    {
+      "name": "PanadaLilyGrowingCondition",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panada_lily_growing_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/growingCondition"
     }
   ],
   "variable_elements": [],
