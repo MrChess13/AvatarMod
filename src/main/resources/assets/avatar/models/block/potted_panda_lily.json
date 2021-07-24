@@ -1,0 +1,10 @@
+{
+  "parent": "avatar:custom/flower_pot_cross",
+  "textures": {
+    "all": "avatar:blocks/flower_pot",
+    "particle": "avatar:blocks/flower_pot",
+    "flowerpot": "avatar:blocks/flower_pot",
+    "plant": "avatar:blocks/pandalilysmall",
+    "dirt": "avatar:blocks/dirt"
+  }
+}

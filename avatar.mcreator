@@ -1172,6 +1172,125 @@
       "ids": {},
       "registry_name": "ice_bricks_wall_recipe",
       "path": "~/Building Blocks/Water Tribe"
+    },
+    {
+      "name": "PandaLily",
+      "type": "plant",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panda_lily",
+      "path": "~/plants"
+    },
+    {
+      "name": "PanadaLilyGrowingCondition",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panada_lily_growing_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/growingCondition"
+    },
+    {
+      "name": "PottedPandaLily",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potted_panda_lily",
+      "path": "~/plants/pottedPlants"
+    },
+    {
+      "name": "FlowerPotPandaLilyOnRightClick",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_panda_lily_on_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/pottedPlants"
+    },
+    {
+      "name": "PlayerRightClicksFlowerPot",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_right_clicks_flower_pot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/plants/pottedPlants"
     }
   ],
   "variable_elements": [],
@@ -1185,8 +1304,8 @@
       "block.avatar.test": "Test",
       "item.avatar.copper_shoval": "Copper Shoval",
       "block.avatar.silver_ore": "Silver Ore",
-      "item.avatar.silver_armor_boots": "Silver Armor Boots",
       "block.avatar.ice_bricks_slab": "Ice Bricks Slab",
+      "item.avatar.silver_armor_boots": "Silver Armor Boots",
       "block.avatar.ice_bricks_fence_gate": "Ice Bricks Fence Gate",
       "block.avatar.blue_ice_fence_gate": "Blue Ice Fence Gate",
       "block.avatar.ice_trap_door": "Ice Trap Door",
@@ -1200,6 +1319,7 @@
       "block.avatar.snow_slab": "Snow Slab",
       "block.avatar.packed_ice_staris": "Packed Ice Staris",
       "block.avatar.silver_block": "Silver Block",
+      "block.avatar.panda_lily": "Panda Lily",
       "block.avatar.packed_ice_wall": "Packed Ice Wall",
       "item.avatar.anng": "Anng",
       "block.avatar.ice_slab": "Ice Slab",
@@ -1236,6 +1356,7 @@
       "item.avatar.copper_armor_chestplate": "Copper Armor Body",
       "item.avatar.silver_hoe": "Silver Hoe",
       "item.avatar.copper_axe": "Copper Axe",
+      "block.avatar.potted_panda_lily": "Potted Panda Lily",
       "block.avatar.blue_ice_slab": "Blue Ice Slab",
       "block.avatar.packed_ice_fence_gate": "Packed Ice Fence Gate",
       "block.avatar.ice_bricks_wall": "Ice Bricks Wall",
@@ -1379,6 +1500,19 @@
           },
           {
             "name": "Coins",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "plants",
+        "children": [
+          {
+            "name": "growingCondition",
+            "children": []
+          },
+          {
+            "name": "pottedPlants",
             "children": []
           }
         ]

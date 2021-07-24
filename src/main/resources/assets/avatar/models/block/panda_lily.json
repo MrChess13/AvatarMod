@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "avatar:blocks/panadalily",
+    "particle": "avatar:blocks/panadalily"
+  }
+}
